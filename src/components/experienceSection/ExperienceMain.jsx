@@ -1,6 +1,5 @@
 import AllExperiences from "./AllExperiences";
 import ExperienceText from "./ExperienceText";
-import ExperienceTop from "./ExperienceTop";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -21,9 +20,9 @@ const ExperienceMain = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
       >
-        <ExperienceTop />
+      
       </motion.div>
-      <div className="w-full h-1 mt-4 bg-lightBrown lg:block sm:hidden"></div>
+      <div className="w-full h-1 -mt-8  lg:block sm:hidden"></div>
       <AllExperiences />
     </div>
   );

@@ -5,36 +5,28 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    job: "UX Researcher",
+    company: "Jarurat Care",
+    date: "Nov - Dec 2024",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Conducted user research and interviews to understand needs of patients and caregivers.",
+      "Performed heuristic evaluations and usability testing to identify interface pain points.",
+      "Analyzed competing healthcare platforms to guide feature improvements and navigation.",
+      "Created wireframes and user flows to support redesign of key user journeys.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "UI UX Designer",
+    company: "CalmCampus",
+    date: "Jan - Feb 2025",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Designed high-fidelity UI screens in Figma with a focus on mental wellness and clarity.",
+      "Ensured design consistency, accessibility, and responsiveness across multiple devices.",
+      "Developed interactive prototypes to showcase user experience flows and transitions.",
+      "Collaborated with developers to implement the design system and maintain visual fidelity.",
     ],
   },
-  {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
-    responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
-    ],
-  },
+  
 ];
 
 const AllExperiences = () => {
@@ -51,7 +43,7 @@ const AllExperiences = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
               >
-                <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
+
               </motion.div>
             ) : (
               ""

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import { PiHexagonThin } from "react-icons/pi";
+
 
 const HeroPic = () => {
   return (
@@ -12,14 +12,9 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/HexaPic.png"
-        alt="Abdelrahman Qassem"
-        className="max-h-[450px] w-auto"
+        src="../../public/images/Profile_color1.png"
+        className="lg:max-h-[1000px] grayscale hover:grayscale-0  hover:scale-[101%] transition-all duration-500 lg:w-auto w-auto max-h-[800px] "
       />
-
-      <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
-        <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite] " />
-      </div>
     </motion.div>
   );
 };

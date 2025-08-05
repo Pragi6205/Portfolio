@@ -5,32 +5,25 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Luxera",
+    year: "Nov 2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "../../public/images/Landing page.png",
+    link: "https://luxera.netlify.app/",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "CalmCampus",
+    year: "Jan 2024",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "../../public/images/Group 1597882917.png",
     link: "#",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Wildlens",
+    year: "Oct 2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
-  },
-  {
-    name: "Bank of Luck",
-    year: "May2024",
-    align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    image: "../../public/images/Desktop - 4.png",
+    link: "https://wildlens-tours-client.netlify.app/",
   },
 ];
 
@@ -54,6 +47,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
