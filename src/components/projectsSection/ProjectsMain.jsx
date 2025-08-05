@@ -2,27 +2,30 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { Luxera } from "../../public/images/Landing page.png";
+import { CalmCampus } from "../../public/images/Group 1597882917.png";
+import { WildLens } from "../../public/images/Desktop - 4.png";
 
 const projects = [
   {
     name: "Luxera",
     year: "Nov 2024",
     align: "right",
-    image: "../../public/images/Landing page.png",
+    image: {Luxera},
     link: "https://luxera.netlify.app/",
   },
   {
     name: "CalmCampus",
     year: "Jan 2024",
     align: "left",
-    image: "../../public/images/Group 1597882917.png",
+    image: {CalmCampus},
     link: "#",
   },
   {
     name: "Wildlens",
     year: "Oct 2024",
     align: "right",
-    image: "../../public/images/Desktop - 4.png",
+    image: {WildLens},
     link: "https://wildlens-tours-client.netlify.app/",
   },
 ];
