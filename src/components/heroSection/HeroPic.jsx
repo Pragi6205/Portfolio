@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import { pic } from "public/images/Profile_color1.png";
+import  pic  from "../../assets/images/Profile_color1.png";
 
 
 const HeroPic = () => {

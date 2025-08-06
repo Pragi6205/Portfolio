@@ -8,12 +8,13 @@ import ProjectsMain from "./components/projectsSection/ProjectsMain";
 import SkillsMain from "./components/skillsSection/SkillsMain";
 import SubSkills from "./components/skillsSection/SubSkills";
 import SubHeroMain from "./components/subHeroSection/SubHeroMain";
+import Vector from "./assets/images/Vector577.png";
 // import "./App.css";
 
 function App() {
   return (
     <main className="font-body text-white relative overflow-hidden">
-      <img src="../../public/images/Vector577.png " alt="" className="absolute opacity-[6%] z-0 md:block hidden" />
+      <img src={Vector} alt="" className="absolute opacity-[6%] z-0 md:block hidden" />
       <NavbarMain />
       <HeroMain />
       <HeroGradient />
