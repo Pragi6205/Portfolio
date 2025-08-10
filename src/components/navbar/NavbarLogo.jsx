@@ -4,7 +4,7 @@ const NavbarLogo = () => {
       <h1 className="text-white  text-2xl sm:hidden md:block">
         
       </h1>
-      <h1 className="text-white text-2xl lg:hidden  sm:block">
+      <h1 className="text-white text-[20px] lg:hidden sm:block">
         Portfolio
       </h1>
     </div>
