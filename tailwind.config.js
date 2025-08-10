@@ -52,6 +52,9 @@ export default {
             body: ["Montserrat"],
             special: ['"Nunito"'],
         },
+        animation: {
+            popUp: 'popUp 0.5s ease-in forwards',
+        },
     },
     plugins: [],
 };
