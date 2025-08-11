@@ -3,7 +3,7 @@ import  Aboutme from "../../assets/images/About.jpg";
 const AboutMeImage = () => {
   return (
     <div className="h-[500px] w-[300px] relative ">
-      <div className=" lg:h-[500px] h-[300px] w-[300px] rounded-[50px] absolute overflow-hidden bg-grey grayscale hover:grayscale-0 hover:opacity-100  hover:scale-105 transition-all duration-500">
+      <div className=" lg:h-[500px] h-[300px] w-[300px] rounded-[50px] absolute overflow-hidden bg-grey grayscale hover:grayscale-0 hover:opacity-100 sm:grayscale-0 hover:scale-105 transition-all duration-500">
         <img
           src={Aboutme}
           alt="About Me Image"
