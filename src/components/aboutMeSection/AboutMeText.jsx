@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
-      <h2 className="md:text-6xl text-grey mb-10 uppercase font-bold transition-all duration-500 hover:text-[#377781] text-3xl">About Me</h2>
+      <h2 className="md:text-6xl text-grey mb-10 uppercase font-bold transition-all duration-500 hover:text-[#377781] text-3xl sm:text-[#398793]">About Me</h2>
       <p className="text-justify text-[15px] px-4 md:p-0">
         I’m Praghadeesh, a UI/UX designer with a flair for building intuitive, user-centered digital interfaces. With a strong background in front-end technologies like HTML and CSS, I bring a blend of aesthetics and functionality to every project. <br /><br />
 

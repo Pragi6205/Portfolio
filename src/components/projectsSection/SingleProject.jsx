@@ -24,7 +24,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
         </h2>
         <a
           href={link}
-          className={`text-lg flex gap-2 items-center text-grey hover:text-[#377781] font-bold hover:underline transition-all duration-500 cursor-pointer sm:justify-self-center ${
+          className={`text-lg flex gap-2 items-center text-grey hover:text-[#377781] sm:text-[#398793] font-bold hover:underline transition-all duration-500 cursor-pointer sm:justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
           }`}
         >
@@ -33,7 +33,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
       </div>
       <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
         <div className="w-full h-full opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden"></div>
-        <img src={image} alt="website image" className="w-full h-full grayscale hover:grayscale-0" />
+        <img src={image} alt="website image" className="w-full h-full grayscale sm:grayscale-0 hover:grayscale-0" />
       </div>
     </motion.div>
   );
