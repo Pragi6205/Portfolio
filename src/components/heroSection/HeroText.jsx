@@ -22,7 +22,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="md:text-[2.8rem] lg:text-7xl sm:text-3xl font-bold uppercase -mt-10"
       >
-        
+       
+        <br />
         <h1 className="text-grey hover:text-[#398793] sm:text-[#398793] transition-all duration-500">CREATIVITY <span className="text-white">fuels</span></h1>
         <h1>innovation, design shapes it.</h1>
       </motion.h1>

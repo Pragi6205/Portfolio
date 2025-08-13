@@ -11,8 +11,12 @@ const HeroMain = () => {
             <h1 className="sm:text-[#398793]  font-black  text-[80px] ml-[20px]">UX</h1>
           </div >
           <h1 className="sm:text-[#398793]  font-black  text-[80px] mt-[70px] ml-[15px]">DESINGER</h1>
+        
         </div>
-
+          {/* <div className="absolute sm:mt-[390px] md:hidden items-center">
+        <h1 className="sm:text-[#398793]  font-black  text-[63px] opacity-20 sm:-mt-[30px]">FRONT-END</h1>
+          <h1 className="sm:text-[#398793]  font-black  text-[63px] opacity-20 sm:-mt-[30px]">DEVELOPER</h1>
+        </div>  */}
         
         <HeroPic />
         <HeroText />

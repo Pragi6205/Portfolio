@@ -14,7 +14,7 @@ const HeroPic = () => {
     >
       <img
         src={pic}
-        className="lg:max-h-[1000px]  sm:grayscale-0 md:grayscale hover:grayscale-0  hover:scale-[101%] transition-all duration-500 lg:w-auto w-auto max-h-[400px]  sm:z-4" 
+        className="lg:max-h-[1000px]  sm:grayscale-0 md:grayscale hover:grayscale-0  hover:scale-[101%] transition-all duration-500 lg:w-auto w-auto max-h-[400px]" 
       />
     </motion.div>
   );
