@@ -6,6 +6,7 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { SiFigma, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 
 const skills = [
   {
@@ -27,6 +28,17 @@ const skills = [
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Figma",
+    icon: SiFigma,
+  },
+   {
+    skill: "Photoshop",
+    icon: SiAdobephotoshop,
+  }, {
+    skill: "Illustrator",
+    icon: SiAdobeillustrator,
   },
 ];
 

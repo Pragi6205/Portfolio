@@ -1,13 +1,11 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { SiFigma, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 
 const skills = [
   {
@@ -32,6 +30,17 @@ const skills = [
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
+  {
+      skill: "Figma",
+      icon: SiFigma,
+    },
+     {
+      skill: "Photoshop",
+      icon: SiAdobephotoshop,
+    }, {
+      skill: "Illustrator",
+      icon: SiAdobeillustrator,
+    },
 ];
 
 const AllSkillsSM = () => {
