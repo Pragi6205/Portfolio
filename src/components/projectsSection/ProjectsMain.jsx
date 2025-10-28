@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import  Luxera  from "../../assets/images/Landing page.png";
 import  CalmCampus  from "../../assets/images/Group 1597882917.png";
-import  WildLens  from "../../assets/images/Desktop - 4.png";
+import WildLens from "../../assets/images/Desktop - 4.png";
+import Fresco from "../../assets/images/Frame 1097.png";
 
 const projects = [
   {
@@ -22,9 +23,16 @@ const projects = [
     link: "#",
   },
   {
+    name: "Fresco",
+    year: "Oct 2025",
+    align: "right",
+    image: Fresco,
+    link: "#",
+  },
+  {
     name: "Wildlens",
     year: "Oct 2024",
-    align: "right",
+    align: "left",
     image: WildLens,
     link: "https://wildlens-tours-client.netlify.app/",
   },
